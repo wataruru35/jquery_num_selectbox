@@ -9,7 +9,9 @@
 <script src="jquery.num_selectbox.js"></script>
 <script>
 $(function() {
-    $(".num_selectbox").num_selectbox();
+    $(".5_100_30").num_selectbox(5,100,30);
+    $(".1_100_1").num_selectbox(1,100,1);
+
 });
 </script>
 
@@ -17,7 +19,8 @@ $(function() {
 
 <body>
 
-	<select name="num" class="num_selectbox" min="5" max="100" select="30"></select>
+	<select name="num" class="5_100_30"></select>
+	<select name="num2" class="1_100_1"></select>
 	
 </body>
 

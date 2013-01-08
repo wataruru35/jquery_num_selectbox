@@ -1,9 +1,6 @@
 (function( $ ) {
-  $.fn.num_selectbox = function() {
+  $.fn.num_selectbox = function(min,max,select) {
     
-       var min =  Number($(this).attr("min"));
-       var max =  Number($(this).attr("max"));
-       var select = Number($(this).attr("select"));
 
        for (i = min; i <= max; i++){
        
@@ -23,7 +20,6 @@
 	     
 	   }
        
-
 
   };
 })( jQuery );
